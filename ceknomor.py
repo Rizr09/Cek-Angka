@@ -7,12 +7,12 @@ if angka % 2 == 0 and angka != 0:
 elif angka % 2 != 0:
     print(angka, "angka ganjil")
 else:
-    print("nol")
+    print(angka, "bukan genap maupun ganijl")
 # Cek angka 2
 if angka < 0:
     print(angka, "angka negatif")
 elif angka == 0:
-    print()
+    print(angka, "bukan negatif maupun positif")
 else:
     print(angka, "angka positif")
 # Cek angka 3
